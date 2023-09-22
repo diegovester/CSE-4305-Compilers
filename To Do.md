@@ -1,1 +1,1 @@
-[] Email the correct commands on Mac for Exercise 0
+[ ] Email the correct commands on Mac for Exercise 0
