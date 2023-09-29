@@ -5,7 +5,7 @@
 PROJS    = hello.exe leaky.exe overread.exe
 
 #-----------------------------------------------------------------
-CC       = gcc
+CC       = clang
 
 SANFLAGS = -fsanitize=address
 
