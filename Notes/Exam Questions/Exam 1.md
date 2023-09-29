@@ -52,5 +52,3 @@ e.g. a C compiler written in C.
 # Question 8
 **What is a source-to-source compiler?**
 A compiler that translates one high level langauge to another separate high level language.
-
-
