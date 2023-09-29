@@ -5,8 +5,6 @@
 "We'll use "compiling" to mean that a complete analysis of the source code is done by the translator."
 
 
-
-
 # Question 2
 **What is an example of an operation in cpp?**  
 cpp = contextual preprocessor  
@@ -54,5 +52,3 @@ e.g. a C compiler written in C.
 # Question 8
 **What is a source-to-source compiler?**
 A compiler that translates one high level langauge to another separate high level language.
-
-
