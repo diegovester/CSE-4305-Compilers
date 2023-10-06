@@ -148,45 +148,65 @@ e.g. a C compiler written in C.
 # Lecture Questions
 
 ## Phases of Compilation *** 
-Date: 09-08-23
-M00 Introduction
-Memorize this slide
+Date: 09-08-23  
+M00 Introduction   
+
+> Character stream
+1. **Lexical Analysis** 
+> Token Stream  
+2. **Syntax analysis**  
+> Parse Tree
+3. **Semantic Analysis / Intermediate code generation**  
+> Abstract syntax tree / Intermediate form
+4. **Machine independent code improvement** 
+> Modified intermediate form  
+5. **Target code generation**  
+> Target language  
+6. **Machine-specific code  improvement**
+> Modified Target language
+
+
+
+
+
 
 ## Lexical Analysis
+Professor: "Be able to do this with pen and paper"  
+REAL_LITERAL ***   
+(modified for markdown)  
+[0-9]\*(([0-9][.])|([.][0-9]))[0-9]\*
 
-REAL_LITERAL ***
-[0-9]*(([0-9][.])|([.][0-9]))[0-9]*
-Professor: "Be able to do this with pen and paper"
+
 
 ## Regular Expressions (RE) ***
-Date: 09-22-23
-M01 Lexical Analysis
+Date: 09-22-23  
+M01 Lexical Analysis  
 Empty set is not a regular expression. It is nothing.
 "If you dont have an empty set as a regular expression?"
 - an empty regular expression. empty. nothing.
 
 ## [Grammars and the Chomsky Language Hierarchy]
-Date: 09-22-23
-M01 Lexical Analysis
+Date: 09-22-23  
+M01 Lexical Analysis  
 we can encode a turing machine in a finite number of 0s and 1s. ***
 If we can do that, that means every possible turing machine can be equated with a binary number, which means an integer.
 
 
 ## Deterministic Finite Automaton Examples
-Date: 09-29-23
-M01 Lexical Analysis
+Date: 09-29-23  
+M01 Lexical Analysis  
 
 
 ## Nondeterministic Finite Automota (NFA)
-Date:09-29-23
-M01 Lexical Analysis
+Date:09-29-23  
+M01 Lexical Analysis  
 Does being non-deterministic increase the descriptive power of a Finite Automaton? ***
 No! Why not?
 
 
 # Psipser
- Review Chapter 1 and 2 from Psipser
-	* Try to do every exercise
+ Review Chapter 1 and 2 from Psipser  
+	* Try to do every exercise  
 	* Be able to answer in 5 words or less
 
 # Feyman Papers
