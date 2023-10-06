@@ -60,14 +60,18 @@ There is at most one next state that the automaton can transition to
 Given the same input string, the DFA will always end up in the same final state
 
 ## Question 5
-A: Can a finite automaton accept an infinite-length string?
+A: Can a finite automaton accept an infinite-length string?  
+No
 
-B: Explain why or why not.
+B: Explain why or why not.  
+The automaton would not halt, and therefore never reach an accepting state.
 
 ## Question 6
-A: Can a finite automaton reject an infinite-length string?
+A: Can a finite automaton reject an infinite-length string?  
+No
 
-B: Explain why or why not.
+B: Explain why or why not.  
+The automaton would never halt. It would be always be possible that perhaps the string could accept, but may just be a little longer, forever.
 
 ## Question 7
 A: What are the five fundamental regular expressions?
