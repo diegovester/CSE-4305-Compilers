@@ -10,7 +10,6 @@
 **C. This compiler promised three resulting advantages. Name two.**  
 > [Speed and portability.](https://www.spiceworks.com/tech/tech-general/articles/what-is-fortran/)
 
-
 **D. How long did it take to write this compiler?**  
 > [Three years](https://www.spiceworks.com/tech/tech-general/articles/what-is-fortran/)
 
@@ -28,12 +27,23 @@ D. What's an advantage a compiler has over an interpreter?
 > Performance and improved security
 
 ## Question 3
-A. Could a REPL be created for C?
+**A. Could a REPL be created for C?**
+> Yes, a Read-Eval-Print Loop (REPL) can be created for the C programming language, although it is less common than for some other languages.
 
-B. Justy your answer to [3]A.
+**B. Justy your answer to [3]A.**
+> The  Cling project is an interactive C/C++ interpreter built on top of Clang, a C/C++ compiler.
+
+> This proves it is possible, though creating a full-featured C REPL can be complex and may require handling various issues.
+* managing memory
+* dealing with library dependencies
+*  handling error messages from the compiler.
+* C is a statically-typed language
+* Handling data types and variables in a REPL can be challenging.
 
 ## Question 4
-A. What five items are required to define a finite automaton?
+**A. What five items are required to define a finite automaton?**  
+> 
+
 B. What does it mean for a finite automaton to accept a string? (Two items to mention here.)
 C. What is required for a finite automaton to be deterministic? (Two items to mention here.)
 
