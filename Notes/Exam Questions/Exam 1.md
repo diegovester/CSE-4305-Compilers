@@ -42,10 +42,22 @@ D. What's an advantage a compiler has over an interpreter?
 
 ## Question 4
 **A. What five items are required to define a finite automaton?**  
-> 
+1. Alphabet (Σ)
+2. States (Q)
+3. Transition Function (δ)
+4. Start State (q0)
+5. Accepting States (F)
 
-B. What does it mean for a finite automaton to accept a string? (Two items to mention here.)
-C. What is required for a finite automaton to be deterministic? (Two items to mention here.)
+**B. What does it mean for a finite automaton to accept a string? (Two items to mention here.)**  
+1. The entire input string is exhausted 
+2. The automaton is in an accepting state
+
+**C. What is required for a finite automaton to be deterministic? (Two items to mention here.)**  
+1. Deterministic Transition Function  
+There is at most one next state that the automaton can transition to
+
+2. Unambiguous Path  
+Given the same input string, the DFA will always end up in the same final state
 
 ## Question 5
 A: Can a finite automaton accept an infinite-length string?
