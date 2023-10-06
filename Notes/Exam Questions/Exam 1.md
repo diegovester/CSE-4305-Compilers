@@ -61,17 +61,17 @@ Given the same input string, the DFA will always end up in the same final state
 
 ## Question 5
 A: Can a finite automaton accept an infinite-length string?  
-No
+> No
 
 B: Explain why or why not.  
-The automaton would not halt, and therefore never reach an accepting state.
+> The automaton would not halt, and therefore never reach an accepting state.
 
 ## Question 6
 A: Can a finite automaton reject an infinite-length string?  
-No
+> No
 
 B: Explain why or why not.  
-The automaton would never halt. It would be always be possible that perhaps the string could accept, but may just be a little longer, forever.
+> The automaton would never halt. It would be always be possible that perhaps the string could accept, but may just be a little longer, forever.
 
 ## Question 7
 A: What are the five fundamental regular expressions?
@@ -81,7 +81,7 @@ B: What does + mean when applied to a regular expression? (Be specific!)
 C: Even though ? is not one of the 5 fundamental REs, why is it acceptable to use it when writing REs? (Be specific!)
 
 ## Question 8
-**Using only the 5 Basic REs and [], ?, + Write a Regular Expression that matches...**
+**Using only the 5 Basic REs and [], ?, + Write a Regular Expression that matches...**  
 A: ... a C identifier.
 
 B: ... a decimal number with a . somewhere in the middle. (That is, has digits on both sides.)
@@ -93,12 +93,12 @@ C: ... a single-line string literal.
 ## Question 1
 **For a translator to be a true compiler, what does it analyze? What is the resemblance of the generated IR to the source code?**
 
-"We'll use "compiling" to mean that a complete analysis of the source code is done by the translator."
+> "We'll use "compiling" to mean that a complete analysis of the source code is done by the translator."
 
 
 ## Question 2
-**What is an example of an operation in cpp?**  
-cpp = contextual preprocessor  
+**What is an example of an operation in cpp?**    
+> cpp = contextual preprocessor  
 Conditional Compilation  
 #if Directive  
 #ifdef Directive  
@@ -112,18 +112,19 @@ Conditional Compilation
 
 ## Question 3
 **Does a compiler "stick around" after the program is compiled? Explain.**
+> No, a compiler typically does not "stick around" or remain active while a program it compiled is executing. Once a compiler has translated the high-level source code into machine code or bytecode, its primary role is complete, and it is no longer needed during program execution.
 
 ## Question 4
 **What is JIT? Explain**  
-Just-In-Time Compilation
+> Just-In-Time Compilation
 Compilation can be delayed until the last possible moment.
 Allows for handling "on-the-fly" code, optimization based on run-time conditions, etc.
 
 ## Question 5
-**What is REPL? Explain**
-Read-Eval-Print Loop (REPL)
+**What is REPL? Explain**  
+> Read-Eval-Print Loop (REPL)
 
-An interactive environment wherein the user types a line at a time which is then evaluated and results displayed.
+> An interactive environment wherein the user types a line at a time which is then evaluated and results displayed.
 
 - Read: Get Input from user
 - Eval: Determine value
@@ -137,12 +138,12 @@ An interactive environment wherein the user types a line at a time which is then
 
 ## Question 7
 **What is a self-hosting compiler?**
-A compiler written in its own language.
+> A compiler written in its own language.
 e.g. a C compiler written in C.
 
 ## Question 8
-**What is a source-to-source compiler?**
-A compiler that translates one high level langauge to another separate high level language.
+**What is a source-to-source compiler?**  
+> A compiler that translates one high level langauge to another separate high level language.
 
 # Lecture Questions
 
