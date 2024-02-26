@@ -4,3 +4,6 @@ Review of programming language structures, translation, and storage allocation. 
 
 
 [How to level up your Git commit messages](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
+
+## Future reference
+flex.md breaks vitepress compiler
